@@ -97,7 +97,7 @@ namespace ABCShop
                 }
                 xl.Worksheet worksheet = workbook.Worksheets[sheetValue] as xl.Worksheet;
                 xl.Range range = worksheet.UsedRange;
-                value = (range.Cells[row, col] as xl.Range).Value2;
+                value = Convert.ToString((range.Cells[row, col] as xl.Range).Value2);
             }
             CloseExcel();
             return value;
