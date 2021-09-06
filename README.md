@@ -1,2 +1,4 @@
 # Selenium-Test-Training
-WebDriver with Extend reports and MS Excel Integration
+Selenium WebDriver with Extend reports and MS Excel Integration
+
+WbDriver - ChromeDriver
